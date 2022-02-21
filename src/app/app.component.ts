@@ -30,70 +30,6 @@ export class AppComponent implements OnInit {
     //   }
     // }
 
-    /*         {
-          label: 'line5',
-          data: [90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90],
-          backgroundColor: 'rgba(75,10,125,.5)',
-          borderColor: 'rgb(75,10,125)',
-          fill: false,
-          lineTension: 0,
-          radius: 5,
-        },
-        {
-          label: 'line6',
-          data: [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80],
-          backgroundColor: 'rgba(75,10,125,.5)',
-          borderColor: 'rgb(75,10,125)',
-          fill: false,
-          lineTension: 0,
-          radius: 5,
-        },
-        {
-          label: 'line7',
-          data: [70, 70, 70, 70, 70, 70, 70, 70, 70, 70, 70],
-          backgroundColor: 'rgba(75,10,125,.5)',
-          borderColor: 'rgb(75,10,125)',
-          fill: false,
-          lineTension: 0,
-          radius: 5,
-        }, */
-
-    /*       '06:00',
-        '06:30',
-        '07:00',
-        '07:30',
-        '08:00',
-        '08:30',
-        '09:00',
-        '09:30',
-        '10:00',
-        '10:30',
-        '11:00',
-        '11:30',
-        '12:00',
-        '12:30',
-        '13:00',
-        '13:30',
-        '14:00',
-        '14:30',
-        '15:00',
-        '15:30',
-        '16:00',
-        '16:30',
-        '17:00',
-        '17:30',
-        '18:00',
-        '18:30',
-        '19:00',
-        '19:30',
-        '20:00',
-        '20:30',
-        '21:00',
-        '22:30',
-        '23:00',
-        '24:30',
-        '00:00', */
-
     data = {
       /* labels: [
         '00:30',
@@ -131,7 +67,7 @@ export class AppComponent implements OnInit {
           borderWidth: 1,
         },
         {
-          label: 'Geração Verificada',
+          label: 'Line1',
           data: [
             { x: '00:30', y: 120 },
             { x: '01:00', y: 120 },
@@ -147,7 +83,7 @@ export class AppComponent implements OnInit {
           radius: 1,
         },
         {
-          label: 'PDP ONS',
+          label: 'Line2',
           data: [
             { x: '00:30', y: 110 },
             { x: '01:00', y: 110 },
@@ -163,23 +99,6 @@ export class AppComponent implements OnInit {
           lineTension: 0,
           radius: 1,
         },
-        /*   {
-          label: 'PDP + Devio',
-          data:[
-            {x:'00:30',y:100},
-            {x:'01:00',y:100},
-            {x:'02:30',y:100},
-            {x:'00:30',y:100},
-            {x:'00:30',y:100}
-          ],
-          //data: [100, 100, 101, 100, 100, 100, 100, 100, 100, 100, 100],
-          backgroundColor: '#FFB179',
-          borderDash: [10, 10],
-          borderColor: '#FFB179',
-          fill: false,
-          lineTension: 0,
-          radius: 0,
-        } */
       ],
     };
 
