@@ -24,12 +24,6 @@ export class AppComponent implements OnInit {
     // Uncomment below and use import at top.
     // Replace datasets with this.dataArray
 
-    // for (let key in chartData.items) {
-    //   if (chartData.items.hasOwnProperty(key)) {
-    //     this.dataArray.push(chartData.items[key]);
-    //   }
-    // }
-
     data = {
       /* labels: [
         '00:30',
@@ -54,7 +48,7 @@ export class AppComponent implements OnInit {
             { x: '01:30', y: null },
             { x: '02:00', y: null },
             { x: '02:30', y: 120 },
-            { x: '02:30', y: 110, label: 'de' },
+            { x: '02:30', y: 110 },
             { x: '02:30', y: 0 },
           ],
           //data: [null,null,120],
